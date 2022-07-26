@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
     <title>Página de Captura</title>
 </head>
 <body>
@@ -11,13 +13,13 @@
         <h1>PARTICIPE DO WORKSHOP QUE VAI MUDAR O SEU NEGÓCIO</h1>
     </header>
     <main>
-        <section>
-            <div>
+        <section class="container banner-principal">
+            <div class="formulario">
                 <h2>Garanta a sua vaga no workshop do maior especialista em marketing da atualidade</h2>
                 <p>Neste evento você vai aprender todos os segredos que vão te fazer ser um empreendedor de sucesso sem precisar contar com a sorte</p>
                 <form>
-                    <input type="text" name="txtName">
-                    <input type="email" name="txtEmail">
+                    <input type="text" name="txtName" placeholder="Digite seu nome">
+                    <input type="email" name="txtEmail" placeholder="Digite seu melhor email">
                     <select name="estado">
                         <option value="RJ" selected>Rio de Janeiro</option>
                         <option value="MG">Minas Gerais</option>
@@ -32,11 +34,13 @@
                 </form>
             </div>
         </section>
-        <section>
-            <img src="#" alt="foto do palestrante">
-            <h2>O Palestrante</h2>
-            <p>Carlos Fortana é conhecido por dar palestras que abalam a estrutura do marketing tradicional. Prepare-se para sair do evento com uma nova visão do que é possível ser feito para o seu negócio decolar.</p>
-            <p>Formado em Marketing pela Universidade de XYZ e fundador da MarkUp, a empresa vencedora dos últimos 5 Prêmios MarketingBr</p>
+        <section class="container palestrante">
+            <img src="./imagens/imgPalestrante1.png" alt="foto do palestrante">
+            <div class="texto-palestrante">
+                <h2>O Palestrante</h2>
+                <p>Carlos Fortana é conhecido por dar palestras que abalam a estrutura do marketing tradicional. Prepare-se para sair do evento com uma nova visão do que é possível ser feito para o seu negócio decolar.</p>
+                <p>Formado em Marketing pela Universidade de XYZ e fundador da MarkUp, a empresa vencedora dos últimos 5 Prêmios MarketingBr</p>
+            </div>
         </section>
     </main>
 </body>
